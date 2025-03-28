@@ -13,7 +13,7 @@ TaxaDeJuros = Convert.ToInt32(Console.ReadLine());
 Console.Write("Tempo [t] (meses)......:");
 Tempo = Convert.ToInt32(Console.ReadLine());
 
-JurosSimples = Capital * TaxaDeJuros * Tempo;
+JurosSimples = Capital * TaxaDeJuros /100 * Tempo;
 
 Montante = JurosSimples + Capital;
 
